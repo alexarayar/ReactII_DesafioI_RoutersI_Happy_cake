@@ -1,0 +1,130 @@
+header{
+display: flex;
+align-items: center;
+justify-content:space-between;
+background-color:#c14a4a;
+text-decoration: none;
+color: aliceblue;
+padding: 15px;
+}
+
+.logo {
+  color: aliceblue;
+  text-decoration: none;
+font-size: 20px;
+padding-right:15px;
+display: flex;
+
+}
+
+header ul{
+list-style: none;
+display: flex;
+align-items: center;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 10px;
+}
+
+.fa-house-user{
+  margin:3px;
+}
+
+.fa-phone {
+  margin:3px; 
+}
+
+.fa-cake-candles{
+margin:5px;
+}
+
+h1{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+font-size: 50px;
+}
+
+main p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  }
+  
+  main{
+ display: flex;
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  } 
+
+.imagen{
+height:350px;
+  }
+
+ form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+ }
+
+ form label{
+font-size: 18px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+height:50px;
+ }
+
+.btn{
+  width:60px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 20px;
+  height: 30px;
+  background-color:#c14a4a;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cuadro1 {
+width: 100%;
+height: 30px;
+}
+
+#descripcion{
+  height: 100px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.routes-container {
+  flex: 1;
+  padding: 10px;
+  margin: 20px;
+}
+
+
